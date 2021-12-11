@@ -1,50 +1,36 @@
-[![Download](https://img.shields.io/github/v/release/coofcookie/Windows11Upgrade)](https://github.com/coofcookie/Windows11Upgrade/releases/latest/)
-[![Download count)](https://img.shields.io/github/downloads/coofcookie/Windows11Upgrade/total?label=Downloads)](https://github.com/coofcookie/Windows11Upgrade/releases/latest/)
+[![Скачать](https://img.shields.io/github/v/release/dpteam/MediaCreationTool.NET)](https://github.com/dpteam/MediaCreationTool.NET/releases/latest/)
+[![Количество скачавших)](https://img.shields.io/github/downloads/dpteam/MediaCreationTool.NET/total?label=Downloads)](https://github.com/dpteam/MediaCreationTool.NET/releases/latest/) 
 
-# Windows11Upgrade
-Windows 11 Upgrade tool that bypasses new Microsoft´s requirements
+# MediaCreationTool.NET
 
-![AppMain](https://user-images.githubusercontent.com/43541350/136449814-ab0bd33c-d692-4fd1-a575-6d48f52769d4.png)
+MediaCreationTool.NET поможет обойти новые ограничения от Microsoft. 
 
-![AppLanguageSelection](https://user-images.githubusercontent.com/43541350/136449823-0bafea46-df52-4263-8260-a3cb7c1c2519.png)
+<p align="center">
+<img src="https://get.wallhere.com/photo/windows-11-simple-Microsoft-2027481.jpg">
+</p>
 
-![AppInstallSelection](https://user-images.githubusercontent.com/43541350/136449829-c5ccbd46-e11e-44b9-83af-d2e29a01a1c5.png)
 ----
 
-## Download
-[Download latest release (EN)](https://github.com/coofcookie/Windows11Upgrade/releases/download/1.0.0/Windows11Upgrade_EN.zip)
-
-[Download latest release (CZ)](https://github.com/coofcookie/Windows11Upgrade/releases/download/1.0.0/Windows11Upgrade_CZ.zip)
-
-## System Requirements
-|| Minimum  | Recommended |
+## Системные требования
+|| Минимальные  | Рекомендуемые |
 | ------------- | ------------- | ------------- |
-| OS | Windows 10 | Latest Windows 10 build |
-| CPU | 64-bit | 64-bit |
-| RAM | 4 GB | 8 GB+ |
+| ОС | Windows 10 | Последняя сборка Windows 10 |
+| ЦП | 64-бит | 64-бит |
+| ОЗУ | 4 ГБ | 8 ГБ или более |
 
-\* If you select any other language than your system language, `Upgrade` option will be disabled, only `Data only` and `Clean install` will be available!
+\* Если Вы выберете любой другой язык, кроме языка вашей системы, опция `Обновить` будет отключена, будут доступны только `Оставить только данные` и `Чистая установка`!
+\* Так же если у Вас LTSB/LTSC, при установке ставим ключ от [Windows 10 Корпоративная / Windows 11 Корпоративная](https://docs.microsoft.com/ru-ru/windows-server/get-started/kms-client-activation-keys)
 
-## License
+## Лицензия
 
-Windows11Upgrade is free and open source software, it is using the GPL-3.0 license.
+MediaCreationTool.NET это свободное ПО с открытым исходным кодом. Распространяется по лицензии GPLv3. 
 
-See [LICENSE](LICENSE) for the full license text.
+Посмотрите [LICENSE](LICENSE) чтобы прочитать полный текст лицензии. 
 
-## Credits
+## Авторство
 
-Credits to [AveYo](https://gist.github.com/AveYo) for bypass.
+Основано на проекте от [coofcookie](https://github.com/coofcookie) 
 
-## Donations
+Обход ограничений нашел [AveYo](https://gist.github.com/AveYo) 
 
-You can support the development of this and my future projects. 
-<div>
-  <a
-     href="https://commerce.coinbase.com/checkout/125a3335-6035-4504-994c-5775e8cce81d">
-    Donate with cryptocurrencies
-  </a><br>
-  <a
-     href="https://ko-fi.com/coofcookie">
-    Buy me a coffee
-  </a>
-</div>
+Форк от [DartPower](https://github.com/dartpower) 
