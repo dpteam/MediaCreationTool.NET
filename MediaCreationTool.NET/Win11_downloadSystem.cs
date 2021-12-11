@@ -5,8 +5,8 @@ using System.Net;
 using System.Windows.Forms;
 
 namespace MediaCreationTool.NET {
-    public partial class win11_downloadSystem : Form {
-        public win11_downloadSystem() {
+    public partial class Win11_downloadSystem : Form {
+        public Win11_downloadSystem() {
             InitializeComponent();
         }
 

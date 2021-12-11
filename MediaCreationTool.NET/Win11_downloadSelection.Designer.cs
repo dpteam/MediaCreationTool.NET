@@ -1,7 +1,7 @@
 ﻿
 namespace MediaCreationTool.NET
 {
-    partial class win11_downloadSelection
+    partial class Win11_downloadSelection
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace MediaCreationTool.NET
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(win11_downloadSelection));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Win11_downloadSelection));
             this.listLanguages = new System.Windows.Forms.ListBox();
             this.lbl_language = new System.Windows.Forms.Label();
             this.btnDownloadSystem = new System.Windows.Forms.Button();
@@ -52,9 +52,9 @@ namespace MediaCreationTool.NET
             this.lbl_language.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_language.Location = new System.Drawing.Point(110, 9);
             this.lbl_language.Name = "lbl_language";
-            this.lbl_language.Size = new System.Drawing.Size(189, 21);
+            this.lbl_language.Size = new System.Drawing.Size(202, 21);
             this.lbl_language.TabIndex = 2;
-            this.lbl_language.Text = "Select system language";
+            this.lbl_language.Text = "Выберите язык системы";
             // 
             // btnDownloadSystem
             // 
@@ -64,11 +64,11 @@ namespace MediaCreationTool.NET
             this.btnDownloadSystem.Name = "btnDownloadSystem";
             this.btnDownloadSystem.Size = new System.Drawing.Size(377, 42);
             this.btnDownloadSystem.TabIndex = 3;
-            this.btnDownloadSystem.Text = "Select language first";
+            this.btnDownloadSystem.Text = "Язык выбран";
             this.btnDownloadSystem.UseVisualStyleBackColor = true;
             this.btnDownloadSystem.Click += new System.EventHandler(this.BtnDownloadSystem_Click);
             // 
-            // win11_downloadSelection
+            // Win11_downloadSelection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -80,8 +80,8 @@ namespace MediaCreationTool.NET
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "win11_downloadSelection";
-            this.Text = "Windows 11 Upgrade";
+            this.Name = "Win11_downloadSelection";
+            this.Text = "MediaCreationTool.NET";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Exit);
             this.ResumeLayout(false);
             this.PerformLayout();

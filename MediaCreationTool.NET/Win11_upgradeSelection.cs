@@ -2,8 +2,8 @@
 using System.Windows.Forms;
 
 namespace MediaCreationTool.NET {
-    public partial class win11_upgradeSelection : Form {
-        public win11_upgradeSelection() {
+    public partial class Win11_upgradeSelection : Form {
+        public Win11_upgradeSelection() {
             InitializeComponent();
         }
 
@@ -24,7 +24,7 @@ namespace MediaCreationTool.NET {
 
         private void Button_downloadIso_Click(object sender, EventArgs e) {
             Hide();
-            var downloadSelection = new win11_downloadSelection();
+            var downloadSelection = new Win11_downloadSelection();
             downloadSelection.Show();
         }
 

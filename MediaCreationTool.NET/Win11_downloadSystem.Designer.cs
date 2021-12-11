@@ -1,7 +1,7 @@
 ﻿
 namespace MediaCreationTool.NET
 {
-    partial class win11_downloadSystem
+    partial class Win11_downloadSystem
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace MediaCreationTool.NET
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(win11_downloadSystem));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Win11_downloadSystem));
             this.progressDownload = new System.Windows.Forms.ProgressBar();
             this.lblDownloadPercentage = new System.Windows.Forms.Label();
             this.lblDownloadingSystem = new System.Windows.Forms.Label();
@@ -58,11 +58,11 @@ namespace MediaCreationTool.NET
             this.lblDownloadingSystem.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDownloadingSystem.Location = new System.Drawing.Point(9, 76);
             this.lblDownloadingSystem.Name = "lblDownloadingSystem";
-            this.lblDownloadingSystem.Size = new System.Drawing.Size(246, 20);
+            this.lblDownloadingSystem.Size = new System.Drawing.Size(288, 20);
             this.lblDownloadingSystem.TabIndex = 2;
-            this.lblDownloadingSystem.Text = "Downloading system, please wait...";
+            this.lblDownloadingSystem.Text = "Скачивание обновления, подождите ...";
             // 
-            // win11_downloadSystem
+            // Win11_downloadSystem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -74,8 +74,8 @@ namespace MediaCreationTool.NET
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "win11_downloadSystem";
-            this.Text = "Windows 11 Upgrade";
+            this.Name = "Win11_downloadSystem";
+            this.Text = "MediaCreationTool.NET";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Exit);
             this.Load += new System.EventHandler(this.FormLoad);
             this.ResumeLayout(false);

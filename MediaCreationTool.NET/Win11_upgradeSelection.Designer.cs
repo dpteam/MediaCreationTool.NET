@@ -1,7 +1,7 @@
 ﻿
 namespace MediaCreationTool.NET
 {
-    partial class win11_upgradeSelection
+    partial class Win11_upgradeSelection
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace MediaCreationTool.NET
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(win11_upgradeSelection));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Win11_upgradeSelection));
             this.lbl_choice = new System.Windows.Forms.Label();
             this.Button_selectIso = new System.Windows.Forms.Button();
             this.Button_downloadIso = new System.Windows.Forms.Button();
@@ -41,9 +41,9 @@ namespace MediaCreationTool.NET
             this.lbl_choice.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_choice.Location = new System.Drawing.Point(59, 9);
             this.lbl_choice.Name = "lbl_choice";
-            this.lbl_choice.Size = new System.Drawing.Size(261, 21);
+            this.lbl_choice.Size = new System.Drawing.Size(288, 21);
             this.lbl_choice.TabIndex = 0;
-            this.lbl_choice.Text = "Choose one of the options below";
+            this.lbl_choice.Text = "Выберите один из вариантов ниже";
             // 
             // Button_selectIso
             // 
@@ -52,7 +52,7 @@ namespace MediaCreationTool.NET
             this.Button_selectIso.Name = "Button_selectIso";
             this.Button_selectIso.Size = new System.Drawing.Size(346, 23);
             this.Button_selectIso.TabIndex = 2;
-            this.Button_selectIso.Text = "Select Windows 11 ISO file";
+            this.Button_selectIso.Text = "Выбрать ISO-файл Windows 11";
             this.Button_selectIso.UseVisualStyleBackColor = true;
             this.Button_selectIso.Click += new System.EventHandler(this.Button_selectIso_Click);
             // 
@@ -63,11 +63,11 @@ namespace MediaCreationTool.NET
             this.Button_downloadIso.Name = "Button_downloadIso";
             this.Button_downloadIso.Size = new System.Drawing.Size(346, 23);
             this.Button_downloadIso.TabIndex = 3;
-            this.Button_downloadIso.Text = "Download Windows 11 ISO file";
+            this.Button_downloadIso.Text = "Скачать ISO-файл Windows 11";
             this.Button_downloadIso.UseVisualStyleBackColor = true;
             this.Button_downloadIso.Click += new System.EventHandler(this.Button_downloadIso_Click);
             // 
-            // win11_upgradeSelection
+            // Win11_upgradeSelection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -79,8 +79,8 @@ namespace MediaCreationTool.NET
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "win11_upgradeSelection";
-            this.Text = "Windows 11 Upgrade";
+            this.Name = "Win11_upgradeSelection";
+            this.Text = "MediaCreationTool.NET";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Exit);
             this.ResumeLayout(false);
             this.PerformLayout();

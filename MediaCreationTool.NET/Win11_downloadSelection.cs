@@ -7,11 +7,11 @@ using System.Xml;
 using Newtonsoft.Json;
 
 namespace MediaCreationTool.NET {
-    public partial class win11_downloadSelection : Form {
+    public partial class Win11_downloadSelection : Form {
         private readonly Guid guid = Guid.NewGuid();
         private readonly List<Language> languages = new List<Language>();
 
-        public win11_downloadSelection() {
+        public Win11_downloadSelection() {
             InitializeComponent();
             string urlLanguages;
             guid = Guid.NewGuid();
@@ -75,7 +75,7 @@ namespace MediaCreationTool.NET {
                 dynamic downloadJson = JsonConvert.DeserializeObject(attribute.Value);
                 Globals.downloadURL = downloadJson["Uri"];
                 Hide();
-                var downloadSystem = new win11_downloadSystem();
+                var downloadSystem = new Win11_downloadSystem();
                 downloadSystem.Show();
                 break;
             }

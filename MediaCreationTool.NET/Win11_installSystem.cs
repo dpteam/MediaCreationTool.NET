@@ -58,7 +58,7 @@ $N = 'Skip TPM Check on Dynamic Update'
         }
 
         private void BtnInstallSystem_Click(object sender, EventArgs e) {
-            btnInstallSystem.Text = "Initializing, please wait...";
+            btnInstallSystem.Text = "Инициализация, подождите ...";
             btnInstallSystem.Enabled = false;
             radCleanInstall.Enabled = false;
             radDataOnly.Enabled = false;
@@ -69,6 +69,10 @@ $N = 'Skip TPM Check on Dynamic Update'
 
         private void Exit(object sender, FormClosingEventArgs e) {
             Environment.Exit(0);
+        }
+
+        private void Win11_installSystem_Load(object sender, EventArgs e)
+        {
         }
     }
 }
